@@ -1,1 +1,1 @@
-basic study repo for datastructure and algorithm in javascript
+study repo for elementary datastructure and algorithm in javascript
