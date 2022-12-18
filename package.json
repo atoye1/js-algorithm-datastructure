@@ -1,0 +1,24 @@
+{
+  "name": "js-algorithm-datastructure",
+  "version": "1.0.0",
+  "description": "study repo for elementary datastructure and algorithm in javascript",
+  "main": "findRotatedIndex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atoye1/js-algorithm-datastructure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atoye1/js-algorithm-datastructure/issues"
+  },
+  "homepage": "https://github.com/atoye1/js-algorithm-datastructure#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "jest": "^29.3.1"
+  }
+}
