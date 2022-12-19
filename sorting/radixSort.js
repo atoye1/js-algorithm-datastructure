@@ -28,4 +28,4 @@ const radixSort = (arr) => {
 }
 
 
-exports.default = radixSort;
+module.exports = radixSort;
