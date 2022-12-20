@@ -3,11 +3,11 @@ const insertionSort = (arr, callback) => {
     callback = (a, b) => a - b;
   }
   for (let i = 1; i < arr.length; i++) {
-    let currVal = arr[i];
-    for (var j = i - 1; j >= 0 && callback(arr[j], currVal) > 0; j--) {
+    let currentVal = arr[i];
+    for (var j = i - 1; j >= 0 && callback(arr[j], currentVal) > 0; j--) {
       arr[j + 1] = arr[j];
     }
-    arr[j + 1] = currVal; // PainPoint!
+    arr[j + 1] = currentVal;
   }
   return arr;
 }

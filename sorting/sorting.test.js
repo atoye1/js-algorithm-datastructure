@@ -6,6 +6,9 @@ const quickSort = require('./quickSort');
 const radixSort = require('./radixSort');
 
 const dataArray = Array(10).fill(null).map(elem => Array(10).fill(null).map(elem => parseInt(Math.random() * 100)))
+dataArray.push([0, 0, 0, 1, 1, 1, 2, 0, 0, 1])
+dataArray.push([1, 1, 1, 1, 1, 1, 2, 0, 0, 0])
+dataArray.push([0, 1, 1, 1, 1, 1, 2, 0, 0, 0])
 var moarKittyData = [{
   name: "LilBub",
   age: 7

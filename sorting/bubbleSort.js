@@ -3,8 +3,8 @@ const bubbleSort = (arr, callback) => {
     callback = (a, b) => a - b;
   }
   for (let i = arr.length - 1; i > 0; i--) {
-    let swapped = false;
-    for (let j = 0; j < i; j++) {
+    var swapped = false;
+    for (j = 0; j < i; j++) {
       if (callback(arr[j], arr[j + 1]) > 0) {
         let temp = arr[j];
         arr[j] = arr[j + 1];
@@ -12,7 +12,7 @@ const bubbleSort = (arr, callback) => {
         swapped = true;
       }
     }
-    if (!swapped) return arr;
+    if (!swapped) break;
   }
   return arr;
 }
